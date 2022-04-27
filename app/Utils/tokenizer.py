@@ -5,7 +5,7 @@ import unidecode
 
 class tokenizer:
 
-    def get_tokenz(self,text):
+    def get_tokenz(self, text):
         # Remove accents
         text = unidecode.unidecode(text)
         # To Lower Case
