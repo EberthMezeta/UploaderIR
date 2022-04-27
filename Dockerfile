@@ -1,6 +1,6 @@
 FROM python:3.7-slim
 
-WORKDIR ./app
+WORKDIR /app
 
 RUN pip3 install nltk pysolr requests unidecode uvicorn fastapi aiofiles python-multipart pdfplumber
 COPY install_dictionary.py /install_dictionary.py
